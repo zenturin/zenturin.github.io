@@ -1,0 +1,177 @@
+{
+  "Docs/getting-started.html": {
+    "href": "Docs/getting-started.html",
+    "title": "Getting Started | BlazorBooseInterpreter",
+    "keywords": "Getting Started"
+  },
+  "Docs/introduction.html": {
+    "href": "Docs/introduction.html",
+    "title": "Introduction | BlazorBooseInterpreter",
+    "keywords": "Introduction"
+  },
+  "api/Components.BooseRewrite.BackgroundScheduler.html": {
+    "href": "api/Components.BooseRewrite.BackgroundScheduler.html",
+    "title": "Class BackgroundScheduler | BlazorBooseInterpreter",
+    "keywords": "Class BackgroundScheduler Namespace Components.BooseRewrite Assembly GBI_Assignment.dll public class BackgroundScheduler Inheritance object BackgroundScheduler Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BackgroundScheduler(Canvas) public BackgroundScheduler(Canvas canvas) Parameters canvas Canvas Fields canvas public Canvas canvas Field Value Canvas Methods CompileProgram(string) public void CompileProgram(string program) Parameters program string RunProgram() public void RunProgram()"
+  },
+  "api/Components.BooseRewrite.BaseClasses.CanvasMethod.html": {
+    "href": "api/Components.BooseRewrite.BaseClasses.CanvasMethod.html",
+    "title": "Class CanvasMethod | BlazorBooseInterpreter",
+    "keywords": "Class CanvasMethod Namespace Components.BooseRewrite.BaseClasses Assembly GBI_Assignment.dll public class CanvasMethod : ICanvasMethod, IMethod, ICommand Inheritance object CanvasMethod Implements ICanvasMethod IMethod ICommand Derived MethodCircle MethodMoveTo Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors CanvasMethod(byte, string) public CanvasMethod(byte LineNumber, string OriginalString) Parameters LineNumber byte OriginalString string Fields Parameters public string Parameters Field Value string Properties IndentLevel public byte IndentLevel { get; set; } Property Value byte LineNumber public byte LineNumber { get; set; } Property Value byte OriginalString public string OriginalString { get; init; } Property Value string Methods Compile(string) public void Compile(string line) Parameters line string"
+  },
+  "api/Components.BooseRewrite.BaseClasses.html": {
+    "href": "api/Components.BooseRewrite.BaseClasses.html",
+    "title": "Namespace Components.BooseRewrite.BaseClasses | BlazorBooseInterpreter",
+    "keywords": "Namespace Components.BooseRewrite.BaseClasses Classes CanvasMethod"
+  },
+  "api/Components.BooseRewrite.BooseException.html": {
+    "href": "api/Components.BooseRewrite.BooseException.html",
+    "title": "Class BooseException | BlazorBooseInterpreter",
+    "keywords": "Class BooseException Namespace Components.BooseRewrite Assembly GBI_Assignment.dll public class BooseException : Exception, ISerializable Inheritance object Exception BooseException Implements ISerializable Inherited Members Exception.GetBaseException() Exception.GetType() Exception.ToString() Exception.Data Exception.HelpLink Exception.HResult Exception.InnerException Exception.Message Exception.Source Exception.StackTrace Exception.TargetSite Exception.SerializeObjectState object.Equals(object) object.Equals(object, object) object.GetHashCode() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors BooseException() public BooseException() BooseException(string) public BooseException(string message) Parameters message string BooseException(string, Exception) public BooseException(string message, Exception inner) Parameters message string inner Exception"
+  },
+  "api/Components.BooseRewrite.CanvasMain.html": {
+    "href": "api/Components.BooseRewrite.CanvasMain.html",
+    "title": "Class CanvasMain | BlazorBooseInterpreter",
+    "keywords": "Class CanvasMain Namespace Components.BooseRewrite Assembly GBI_Assignment.dll public class CanvasMain Inheritance object CanvasMain Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors CanvasMain(Canvas) public CanvasMain(Canvas canvas) Parameters canvas Canvas Methods RunProgram(string) public void RunProgram(string ProgramInput) Parameters ProgramInput string"
+  },
+  "api/Components.BooseRewrite.Commands.MethodCircle.html": {
+    "href": "api/Components.BooseRewrite.Commands.MethodCircle.html",
+    "title": "Class MethodCircle | BlazorBooseInterpreter",
+    "keywords": "Class MethodCircle Namespace Components.BooseRewrite.Commands Assembly GBI_Assignment.dll public class MethodCircle : CanvasMethod, ICanvasMethod, IMethod, ICommand Inheritance object CanvasMethod MethodCircle Implements ICanvasMethod IMethod ICommand Inherited Members CanvasMethod.LineNumber CanvasMethod.OriginalString CanvasMethod.IndentLevel CanvasMethod.Parameters CanvasMethod.Compile(string) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors MethodCircle(byte, string) public MethodCircle(byte LineNumber, string OriginalString) Parameters LineNumber byte OriginalString string Methods Execute(Context2D) public Task Execute(Context2D ctx) Parameters ctx Context2D Returns Task"
+  },
+  "api/Components.BooseRewrite.Commands.MethodMoveTo.html": {
+    "href": "api/Components.BooseRewrite.Commands.MethodMoveTo.html",
+    "title": "Class MethodMoveTo | BlazorBooseInterpreter",
+    "keywords": "Class MethodMoveTo Namespace Components.BooseRewrite.Commands Assembly GBI_Assignment.dll public class MethodMoveTo : CanvasMethod, ICanvasMethod, IMethod, ICommand Inheritance object CanvasMethod MethodMoveTo Implements ICanvasMethod IMethod ICommand Inherited Members CanvasMethod.LineNumber CanvasMethod.OriginalString CanvasMethod.IndentLevel CanvasMethod.Parameters CanvasMethod.Compile(string) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors MethodMoveTo(byte, string) public MethodMoveTo(byte LineNumber, string OriginalString) Parameters LineNumber byte OriginalString string Methods Execute(Context2D) public Task Execute(Context2D ctx) Parameters ctx Context2D Returns Task"
+  },
+  "api/Components.BooseRewrite.Commands.html": {
+    "href": "api/Components.BooseRewrite.Commands.html",
+    "title": "Namespace Components.BooseRewrite.Commands | BlazorBooseInterpreter",
+    "keywords": "Namespace Components.BooseRewrite.Commands Classes MethodCircle MethodMoveTo"
+  },
+  "api/Components.BooseRewrite.Interfaces.ICanvasMethod.html": {
+    "href": "api/Components.BooseRewrite.Interfaces.ICanvasMethod.html",
+    "title": "Interface ICanvasMethod | BlazorBooseInterpreter",
+    "keywords": "Interface ICanvasMethod Namespace Components.BooseRewrite.Interfaces Assembly GBI_Assignment.dll public interface ICanvasMethod : IMethod, ICommand Inherited Members ICommand.LineNumber ICommand.OriginalString ICommand.IndentLevel ICommand.Compile(string) Methods Execute(Context2D) Task Execute(Context2D ctx) Parameters ctx Context2D Returns Task"
+  },
+  "api/Components.BooseRewrite.Interfaces.ICommand.html": {
+    "href": "api/Components.BooseRewrite.Interfaces.ICommand.html",
+    "title": "Interface ICommand | BlazorBooseInterpreter",
+    "keywords": "Interface ICommand Namespace Components.BooseRewrite.Interfaces Assembly GBI_Assignment.dll public interface ICommand Properties IndentLevel byte IndentLevel { get; set; } Property Value byte LineNumber byte LineNumber { get; set; } Property Value byte OriginalString string OriginalString { get; init; } Property Value string Methods Compile(string) void Compile(string line) Parameters line string"
+  },
+  "api/Components.BooseRewrite.Interfaces.IMethod.html": {
+    "href": "api/Components.BooseRewrite.Interfaces.IMethod.html",
+    "title": "Interface IMethod | BlazorBooseInterpreter",
+    "keywords": "Interface IMethod Namespace Components.BooseRewrite.Interfaces Assembly GBI_Assignment.dll public interface IMethod : ICommand Inherited Members ICommand.LineNumber ICommand.OriginalString ICommand.IndentLevel ICommand.Compile(string)"
+  },
+  "api/Components.BooseRewrite.Interfaces.IVariable.html": {
+    "href": "api/Components.BooseRewrite.Interfaces.IVariable.html",
+    "title": "Interface IVariable | BlazorBooseInterpreter",
+    "keywords": "Interface IVariable Namespace Components.BooseRewrite.Interfaces Assembly GBI_Assignment.dll public interface IVariable : ICommand Inherited Members ICommand.LineNumber ICommand.OriginalString ICommand.IndentLevel ICommand.Compile(string) Properties Name string Name { get; init; } Property Value string Type Type Type { get; init; } Property Value Type Value object Value { get; set; } Property Value object"
+  },
+  "api/Components.BooseRewrite.Interfaces.html": {
+    "href": "api/Components.BooseRewrite.Interfaces.html",
+    "title": "Namespace Components.BooseRewrite.Interfaces | BlazorBooseInterpreter",
+    "keywords": "Namespace Components.BooseRewrite.Interfaces Interfaces ICanvasMethod ICommand IMethod IVariable"
+  },
+  "api/Components.BooseRewrite.Structs.StagedCommand.html": {
+    "href": "api/Components.BooseRewrite.Structs.StagedCommand.html",
+    "title": "Struct StagedCommand | BlazorBooseInterpreter",
+    "keywords": "Struct StagedCommand Namespace Components.BooseRewrite.Structs Assembly GBI_Assignment.dll public struct StagedCommand Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors StagedCommand(byte, string) public StagedCommand(byte LineNumber, string OriginalString) Parameters LineNumber byte OriginalString string Fields LineNumber public byte LineNumber Field Value byte MethodName public string? MethodName Field Value string OriginalString public string OriginalString Field Value string"
+  },
+  "api/Components.BooseRewrite.Structs.html": {
+    "href": "api/Components.BooseRewrite.Structs.html",
+    "title": "Namespace Components.BooseRewrite.Structs | BlazorBooseInterpreter",
+    "keywords": "Namespace Components.BooseRewrite.Structs Structs StagedCommand"
+  },
+  "api/Components.BooseRewrite.html": {
+    "href": "api/Components.BooseRewrite.html",
+    "title": "Namespace Components.BooseRewrite | BlazorBooseInterpreter",
+    "keywords": "Namespace Components.BooseRewrite Classes BackgroundScheduler BooseException CanvasMain"
+  },
+  "api/GBI_Assignment.Components.App.html": {
+    "href": "api/GBI_Assignment.Components.App.html",
+    "title": "Class App | BlazorBooseInterpreter",
+    "keywords": "Class App Namespace GBI_Assignment.Components Assembly GBI_Assignment.dll public class App : ComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase App Implements IComponent IHandleEvent IHandleAfterRender Inherited Members ComponentBase.OnInitialized() ComponentBase.OnInitializedAsync() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.OnAfterRenderAsync(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) ComponentBase.SetParametersAsync(ParameterView) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder"
+  },
+  "api/GBI_Assignment.Components.BooseRewriteV2.Boose.html": {
+    "href": "api/GBI_Assignment.Components.BooseRewriteV2.Boose.html",
+    "title": "Class Boose | BlazorBooseInterpreter",
+    "keywords": "Class Boose Namespace GBI_Assignment.Components.BooseRewriteV2 Assembly GBI_Assignment.dll A static class to create an instance of the BooseCommandParser public static class Boose Inheritance object Boose Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetBooseInterpreter(Canvas) Intakes a Canvas and returns a BooseCommandParser with the default CommandsManager public static Task<BooseCommandParser> GetBooseInterpreter(Canvas Canvas) Parameters Canvas Canvas Returns Task<BooseCommandParser> A instance of BooseCommandParser with the default command set"
+  },
+  "api/GBI_Assignment.Components.BooseRewriteV2.BooseCommandParser.html": {
+    "href": "api/GBI_Assignment.Components.BooseRewriteV2.BooseCommandParser.html",
+    "title": "Class BooseCommandParser | BlazorBooseInterpreter",
+    "keywords": "Class BooseCommandParser Namespace GBI_Assignment.Components.BooseRewriteV2 Assembly GBI_Assignment.dll Parses a single or multiple lines of BOOSE code and executes the associated methods in the CommandsManager. public class BooseCommandParser Inheritance object BooseCommandParser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BooseCommandParser(CommandsManager) Creates a new instance of the BooseCommandParser with the provided CommandsManager. public BooseCommandParser(CommandsManager CM) Parameters CM CommandsManager The CommandsManager to retrieve methods from for parsing and invoking Methods RunProgram(string) Intakes a string of commands and parameters and invokes the associated methods in the CommandsManager. public Task RunProgram(string program) Parameters program string The string containing the command / commands to be executed Returns Task Exceptions BooseInvalidSyntaxException Throws an exception if there is a Boose syntax error in the inputted string."
+  },
+  "api/GBI_Assignment.Components.BooseRewriteV2.BooseInvalidSyntaxException.html": {
+    "href": "api/GBI_Assignment.Components.BooseRewriteV2.BooseInvalidSyntaxException.html",
+    "title": "Class BooseInvalidSyntaxException | BlazorBooseInterpreter",
+    "keywords": "Class BooseInvalidSyntaxException Namespace GBI_Assignment.Components.BooseRewriteV2 Assembly GBI_Assignment.dll A custom exception for Boose syntax errors. Used to pass the error data to the user. public class BooseInvalidSyntaxException : Exception, ISerializable Inheritance object Exception BooseInvalidSyntaxException Implements ISerializable Inherited Members Exception.GetBaseException() Exception.GetType() Exception.ToString() Exception.Data Exception.HelpLink Exception.HResult Exception.InnerException Exception.Message Exception.Source Exception.StackTrace Exception.TargetSite Exception.SerializeObjectState object.Equals(object) object.Equals(object, object) object.GetHashCode() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors BooseInvalidSyntaxException() Throws a empty BooseInvalidSyntaxException. public BooseInvalidSyntaxException() BooseInvalidSyntaxException(string) Throws a BooseInvalidSyntaxException with a message about the error. public BooseInvalidSyntaxException(string message) Parameters message string The error message to provide the user BooseInvalidSyntaxException(string, int, string) Throws a BooseInvalidSyntaxException containing a detailed error message to present to the user. public BooseInvalidSyntaxException(string message, int lineNumber, string command) Parameters message string The error message to provide to the user lineNumber int The line the error occured on command string The original command that caused the error including parameters Fields Log Stores a detailed error message. Created only when a BooseInvalidSyntaxException is thrown with a message, line number and command. Can be directly displayed to the user. public string Log Field Value string"
+  },
+  "api/GBI_Assignment.Components.BooseRewriteV2.CommandsManager.html": {
+    "href": "api/GBI_Assignment.Components.BooseRewriteV2.CommandsManager.html",
+    "title": "Class CommandsManager | BlazorBooseInterpreter",
+    "keywords": "Class CommandsManager Namespace GBI_Assignment.Components.BooseRewriteV2 Assembly GBI_Assignment.dll Holds methods that can be executed by a BooseCommandParser. The method names match the command names in the Boose language. This class can be extended to add more commands. public class CommandsManager Inheritance object CommandsManager Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors CommandsManager(Context2D) Constructs a new instance of a CommandManager. Must be provided with a Context2D to draw on. public CommandsManager(Context2D ctx) Parameters ctx Context2D A context 2D for commands to be executed on. Fields PenColour The currently selected pen colour. Default: Black public Color PenColour Field Value Color Xpos The Xposition of the cursor on the canvas. Default: 0 public double Xpos Field Value double Ypos The Yposition of the cursor on the canvas. Default: 0 public double Ypos Field Value double Methods circle(double) Draws a circle with the specified radius at the current cursor position. public Task circle(double radius) Parameters radius double The radius of the circle to draw Returns Task drawto(double, double) Draws a line from the current cursor position to the specified X and Y coordinates. Also sets the X and Y of the cursor to the new position. public Task drawto(double X, double Y) Parameters X double X-Coordinate Y double Y-Coordinate Returns Task moveto(double, double) Moves the cursor on the canvas to the specified X and Y coordinates. public Task moveto(double X, double Y) Parameters X double X-Coordinate Y double Y-Coordinate Returns Task pen(double, double, double) Changes the color of all future lines drawn on the canvas. Intakes RGB values from 0-255. public Task pen(double R, double G, double B) Parameters R double Red Color Component as a number 0-255 G double Green Color Component as a number 0-255 B double Blue Color Component as a number 0-255 Returns Task rect(double, double) Draws a rectangle with the specified width and height at the current cursor position. Rectangle originates from the top left corner. public Task rect(double width, double height) Parameters width double Width of the rectangle height double Height of the rectangle Returns Task write(string) Intakes a string and draws the string onto the canvas as text Draws the text at the current cursor position. Origin of the text is the bottom left. public Task write(string text) Parameters text string The text to draw on the canvas Returns Task"
+  },
+  "api/GBI_Assignment.Components.BooseRewriteV2.html": {
+    "href": "api/GBI_Assignment.Components.BooseRewriteV2.html",
+    "title": "Namespace GBI_Assignment.Components.BooseRewriteV2 | BlazorBooseInterpreter",
+    "keywords": "Namespace GBI_Assignment.Components.BooseRewriteV2 Classes Boose A static class to create an instance of the BooseCommandParser BooseCommandParser Parses a single or multiple lines of BOOSE code and executes the associated methods in the CommandsManager. BooseInvalidSyntaxException A custom exception for Boose syntax errors. Used to pass the error data to the user. CommandsManager Holds methods that can be executed by a BooseCommandParser. The method names match the command names in the Boose language. This class can be extended to add more commands."
+  },
+  "api/GBI_Assignment.Components.Layout.MainLayout.html": {
+    "href": "api/GBI_Assignment.Components.Layout.MainLayout.html",
+    "title": "Class MainLayout | BlazorBooseInterpreter",
+    "keywords": "Class MainLayout Namespace GBI_Assignment.Components.Layout Assembly GBI_Assignment.dll public class MainLayout : LayoutComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase LayoutComponentBase MainLayout Implements IComponent IHandleEvent IHandleAfterRender Inherited Members LayoutComponentBase.SetParametersAsync(ParameterView) LayoutComponentBase.Body ComponentBase.OnInitialized() ComponentBase.OnInitializedAsync() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.OnAfterRenderAsync(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder"
+  },
+  "api/GBI_Assignment.Components.Layout.NavMenu.html": {
+    "href": "api/GBI_Assignment.Components.Layout.NavMenu.html",
+    "title": "Class NavMenu | BlazorBooseInterpreter",
+    "keywords": "Class NavMenu Namespace GBI_Assignment.Components.Layout Assembly GBI_Assignment.dll public class NavMenu : ComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase NavMenu Implements IComponent IHandleEvent IHandleAfterRender Inherited Members ComponentBase.OnInitialized() ComponentBase.OnInitializedAsync() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.OnAfterRenderAsync(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) ComponentBase.SetParametersAsync(ParameterView) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder"
+  },
+  "api/GBI_Assignment.Components.Layout.html": {
+    "href": "api/GBI_Assignment.Components.Layout.html",
+    "title": "Namespace GBI_Assignment.Components.Layout | BlazorBooseInterpreter",
+    "keywords": "Namespace GBI_Assignment.Components.Layout Classes MainLayout NavMenu"
+  },
+  "api/GBI_Assignment.Components.Pages.Error.html": {
+    "href": "api/GBI_Assignment.Components.Pages.Error.html",
+    "title": "Class Error | BlazorBooseInterpreter",
+    "keywords": "Class Error Namespace GBI_Assignment.Components.Pages Assembly GBI_Assignment.dll [Route(\"/Error\")] public class Error : ComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase Error Implements IComponent IHandleEvent IHandleAfterRender Inherited Members ComponentBase.OnInitializedAsync() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.OnAfterRenderAsync(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) ComponentBase.SetParametersAsync(ParameterView) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder OnInitialized() Method invoked when the component is ready to start, having received its initial parameters from its parent in the render tree. protected override void OnInitialized()"
+  },
+  "api/GBI_Assignment.Components.Pages.Home.html": {
+    "href": "api/GBI_Assignment.Components.Pages.Home.html",
+    "title": "Class Home | BlazorBooseInterpreter",
+    "keywords": "Class Home Namespace GBI_Assignment.Components.Pages Assembly GBI_Assignment.dll [Route(\"/\")] public class Home : ComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase Home Implements IComponent IHandleEvent IHandleAfterRender Inherited Members ComponentBase.OnInitialized() ComponentBase.OnInitializedAsync() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.OnAfterRenderAsync(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) ComponentBase.SetParametersAsync(ParameterView) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder"
+  },
+  "api/GBI_Assignment.Components.Pages.Interpreter.html": {
+    "href": "api/GBI_Assignment.Components.Pages.Interpreter.html",
+    "title": "Class Interpreter | BlazorBooseInterpreter",
+    "keywords": "Class Interpreter Namespace GBI_Assignment.Components.Pages Assembly GBI_Assignment.dll [Route(\"/interpreter\")] public class Interpreter : ComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase Interpreter Implements IComponent IHandleEvent IHandleAfterRender Inherited Members ComponentBase.OnInitialized() ComponentBase.OnInitializedAsync() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) ComponentBase.SetParametersAsync(ParameterView) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields BooseParser The BooseParser that will parse and run the boose code. public BooseCommandParser BooseParser Field Value BooseCommandParser LogText The text to be displayed to the user if there is an error in their boose code. public string LogText Field Value string canvasHeight The height of the canvas displayed to the user. public const int canvasHeight = 500 Field Value int canvasWidth The width of the canvas displayed to the user. public const int canvasWidth = 500 Field Value int codeTextEntry The text inputted by the user to be executed by the BooseInterpreter. public string codeTextEntry Field Value string helper_canvas The Canvas component that the BooseInterpreter will draw on. public Canvas helper_canvas Field Value Canvas Methods BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder ExecuteBoose() Uses the codeTextEntry string to intake commands and passes it to the BooseParser to run. public Task ExecuteBoose() Returns Task OnAfterRenderAsync(bool) Runs after the first render to get the BooseInterpreter and passes it the canvas. protected override Task OnAfterRenderAsync(bool first_render) Parameters first_render bool Returns Task"
+  },
+  "api/GBI_Assignment.Components.Pages.html": {
+    "href": "api/GBI_Assignment.Components.Pages.html",
+    "title": "Namespace GBI_Assignment.Components.Pages | BlazorBooseInterpreter",
+    "keywords": "Namespace GBI_Assignment.Components.Pages Classes Error Home Interpreter"
+  },
+  "api/GBI_Assignment.Components.Routes.html": {
+    "href": "api/GBI_Assignment.Components.Routes.html",
+    "title": "Class Routes | BlazorBooseInterpreter",
+    "keywords": "Class Routes Namespace GBI_Assignment.Components Assembly GBI_Assignment.dll public class Routes : ComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase Routes Implements IComponent IHandleEvent IHandleAfterRender Inherited Members ComponentBase.OnInitialized() ComponentBase.OnInitializedAsync() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.OnAfterRenderAsync(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) ComponentBase.SetParametersAsync(ParameterView) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder"
+  },
+  "api/GBI_Assignment.Components._Imports.html": {
+    "href": "api/GBI_Assignment.Components._Imports.html",
+    "title": "Class _Imports | BlazorBooseInterpreter",
+    "keywords": "Class _Imports Namespace GBI_Assignment.Components Assembly GBI_Assignment.dll public class _Imports : ComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase _Imports Implements IComponent IHandleEvent IHandleAfterRender Inherited Members ComponentBase.OnInitialized() ComponentBase.OnInitializedAsync() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.OnAfterRenderAsync(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) ComponentBase.SetParametersAsync(ParameterView) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder"
+  },
+  "api/GBI_Assignment.Components.html": {
+    "href": "api/GBI_Assignment.Components.html",
+    "title": "Namespace GBI_Assignment.Components | BlazorBooseInterpreter",
+    "keywords": "Namespace GBI_Assignment.Components Classes App Routes _Imports"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | BlazorBooseInterpreter",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

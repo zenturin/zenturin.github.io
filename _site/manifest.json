@@ -1,0 +1,408 @@
+{
+  "source_base_path": "C:/Users/Crisp/source/repos/ase-boose-assignment-zenturin/GBI Assignment",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "Docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "Docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "Docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.BackgroundScheduler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.BackgroundScheduler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.BaseClasses.CanvasMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.BaseClasses.CanvasMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.BaseClasses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.BaseClasses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.BooseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.BooseException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.CanvasMain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.CanvasMain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Commands.MethodCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Commands.MethodCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Commands.MethodMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Commands.MethodMoveTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Interfaces.ICanvasMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Interfaces.ICanvasMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Interfaces.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Interfaces.ICommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Interfaces.IMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Interfaces.IMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Interfaces.IVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Interfaces.IVariable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Structs.StagedCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Structs.StagedCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.Structs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.Structs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Components.BooseRewrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Components.BooseRewrite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.Boose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.Boose.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.BooseCommandParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.BooseCommandParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.BooseInvalidSyntaxException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.BooseInvalidSyntaxException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.CommandsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.CommandsManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.BooseRewriteV2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.Layout.MainLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.Layout.MainLayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.Layout.NavMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.Layout.NavMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.Layout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.Pages.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.Pages.Error.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.Pages.Home.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.Pages.Home.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.Pages.Interpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.Pages.Interpreter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.Pages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.Routes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.Routes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components._Imports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components._Imports.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GBI_Assignment.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GBI_Assignment.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
